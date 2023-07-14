@@ -1,0 +1,54 @@
+body {
+    background-color: #008080; /* Windows 95 desktop color */
+}
+
+#desktop {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: url('desktop-background.jpg'); /* Windows 95 desktop background */
+
+}
+
+#taskbar {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #008080; /* Windows 95 taskbar color */
+}
+
+#startButtonn {
+    background-color: #008080; /* Windows 95 taskbar color */
+}
+
+#startButton {
+    background-color: #008080; /* Windows 95 start button color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+#systemTray {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: #fff;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.window {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
